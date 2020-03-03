@@ -318,9 +318,11 @@ header{display:inline-block; font-size:12px;}
   .title-name {
     font-size: 2.5rem;
     color: white;
-    margin-left: 1vw;
-
   }
+  .title-name:before {
+    content:"\a";
+    white-space: pre;
+}
 
   .location {
     text-align: center;
