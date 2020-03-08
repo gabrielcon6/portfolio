@@ -95,6 +95,16 @@ header{display:inline-block; font-size:12px;}
   border: 1px solid rgb(72, 70, 70);
   display: table;
 }
+.down:hover {
+  /* border: 2px solid rgb(72, 70, 70); */
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .down {
   /* border: 2px solid rgb(72, 70, 70); */
   padding: 1.5rem;
@@ -237,6 +247,14 @@ header{display:inline-block; font-size:12px;}
   margin: 5vh 0;
   font-size: 1.7rem;
 }
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
+  font-size: 2rem;
+}
+
+.social-links{
+  margin: 5vh 0;
+  font-size: 1.7rem;
+}
 
 .footer-content {
   letter-spacing: 0.08rem;
@@ -354,7 +372,15 @@ header{display:inline-block; font-size:12px;}
     vertical-align: middle;
     text-align: center;
   }
-
+  .down:hover {
+    /* border: 2px solid rgb(72, 70, 70); */
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }  
   .pin {
     padding: 0 1vw;
     font-size: 1.8rem;
