@@ -353,6 +353,7 @@ header{display:inline-block; font-size:12px;}
   }
 
   .container-button {
+    display: block;
     width: 100vw;
     text-align: center;
     color: white !important;
