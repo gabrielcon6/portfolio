@@ -238,7 +238,9 @@ header{display:inline-block; font-size:12px;}
 
 /* <!-- **** Footer/contact Section **** --> */
 .container-contact {
+  margin-top: 30vh;
   text-align: center;
+  height: 100vh;
 }
 
 
