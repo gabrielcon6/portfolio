@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/gabrielcon6/image/upload/v1583796391/logo_gvptsr.png" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 
@@ -40,15 +40,29 @@
     <section id="home">
       <div class="container-home">
         <div class="container-home-child">
-          <h1 class="title">
-            Olá, I'm <span class="title-name">Gabriel Conceição</span>,
-            <br />
-            a Junior Software Developer.
-          </h1>
-          <p class="location"><span class="pin"><i class="fa fa-map-pin"></i></span><i>Sydney</i></p>
+          <div class="top-message">
+            <div class="airplane animated slideInLeft slower">
+              <i class="fa fa-plane fa-rotate-45"></i>
+              <!-- <img
+              class="airplane-img "
+              src="assets/plane.jpg"
+              alt="Profile Image"
+              height="120px"
+              width="140px"
+              />          -->
+            </div>
+            <div class="welcome-left"></div>
+            <p class="welcome-aboard animated slideInRight slower">welcome aboard!</p> 
+          </div>
+        <h1 class="title">
+          I'm <span class="title-name">Gabriel Conceição</span>,
+          <br />
+          a Junior Software Developer.
+        </h1>
+        <p class="location"><span class="pin"><i class="fa fa-map-pin"></i></span><i>Sydney</i></p>
           <div class="container-button">
             <div class="button-link">
-              <a class="down" href="#about">more about me</a>
+              <a class="down" href="#about">first stop: about me</a>
             </div>
           </div>
         </div>
@@ -70,22 +84,23 @@
               alt="Profile Image"
             />
           </div>
+          
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
               I am a <b>Junior Software Developer</b> with a background in consulting. I'm a true people person and love working with teams and/or clients. I have always been curious about learning different things, such as human languages and technology and I enjoy finding creative solutions to problems, which is why I decided to transition into software engineering. I particularly love seeing my work turn into a practical product and I can't wait to start my new journey as a front-end web developer. 
             </p>
-            <h3>Skills</h3>
+            <h3 class="skills-title">Skills</h3>
             <p class="about-wrapper__info-text">React.js | Vanilla JavaScript | Express.js | Node.js | HTML5 | CSS3 | GitHub | Heroku | jQuery | MongoDB | Mongoose | PostgreSQL | Ruby | Ruby on Rails | </p>
+            <div class="resume-link">
+              <a target="_blank" href="https://res.cloudinary.com/gabrielcon6/image/upload/v1583239409/Gabriel_Resume-19FEB_lrznq2.pdf" download="https://res.cloudinary.com/gabrielcon6/image/upload/v1583239409/Gabriel_Resume-19FEB_lrznq2.pdf">view my resume</a>
+            </div>
           </div>
         </div>
       </div>
         <div class="container-button">
           <div class="about-buttons">
             <div class="button-link about-link">
-              <a class="down" target="_blank" href="https://res.cloudinary.com/gabrielcon6/image/upload/v1583239409/Gabriel_Resume-19FEB_lrznq2.pdf" download="https://res.cloudinary.com/gabrielcon6/image/upload/v1583239409/Gabriel_Resume-19FEB_lrznq2.pdf">view resume</a>
-            </div> <br>
-            <div class="button-link about-link">
-              <a class="down" href="#projects">view my projects</a>
+              <a class="down" href="#projects">next stop: projects</a>
             </div>
           </div>
         </div>
@@ -163,37 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Givngs</h3>
-              <div class="project-wrapper__info">
-                <p>
-                  App for organising gift lists for festive dates.
-                </p>
-              </div>
-              <div class="projects-wrapper__inline">
-                <div class="project-wrapper__image">
-                  <img
-                    class="img-project"
-                    src="./assets/givngs.png"
-                    alt="Profile Image"
-                  />
-                </div>
-                <div class="code-buttons">
-                  <div class="button-demo">
-                    <a class="down" target="_blank" href="https://givng.herokuapp.com/">
-                      <span class="codes">see demo</span>
-                    </a>
-                  </div><br>
-                  <div class="button-code">
-                    <a class="down" target="_blank" href="https://github.com/gabrielcon6/project-2">
-                      <span class="codes">see code</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">X||O Tic Tac Toe</h3>
@@ -227,10 +212,45 @@
               </div>
             </div>
           </div>
-
+          <div class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Givngs</h3>
+              <div class="project-wrapper__info">
+                <p>
+                  App for organising gift lists for festive dates.
+                </p>
+              </div>
+              <div class="projects-wrapper__inline">
+                <div class="project-wrapper__image">
+                  <img
+                    class="img-project"
+                    src="./assets/givngs.png"
+                    alt="Profile Image"
+                  />
+                </div>
+                <div class="code-buttons">
+                  <div class="button-demo">
+                    <a class="down" target="_blank" href="https://givng.herokuapp.com/">
+                      <span class="codes">see demo</span>
+                    </a>
+                  </div><br>
+                  <div class="button-code">
+                    <a class="down" target="_blank" href="https://github.com/gabrielcon6/project-2">
+                      <span class="codes">see code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- /END Project -->
 
           <!-- /END Project -->
+        </div>
+      </div>
+      <div class="container-button">
+        <div class="button-link">
+          <a class="down" href="#contact">last stop: contact</a>
         </div>
       </div>
     </section>
@@ -239,27 +259,28 @@
     <!-- **** Footer/contact Section **** -->
     <footer id="contact" class="container-contact">
       <h2 class="section-title">
-        Contact
+        let's keep in touch!
       </h2>
       <div class="footer-content">
         <p>Gabriel Conceição</p>
-        <p class="number"><i style="color: white" class="fa fa-mobile"></i> 0434 774 792</p>
-        <p class="email"><i style="color: white" class="fa fa-envelope"></i> gabrielcon6cao@gmail.com</p>
+        <p class="number"><i style="color: black" class="fa fa-mobile"></i> 0434 774 792</p>
+        <p class="email"><i style="color: black" class="fa fa-envelope"></i> gabrielcon6cao@gmail.com</p>
       </div>
       <div class="social-links">
         <a target="_blank" href="https://www.linkedin.com/in/gabrielcon6/">
-          <i class="fa fa-linkedin fa-inverse"></i>
+          <i class="fa fa-linkedin"></i>
         </a>
         <a target="_blank" href="https://github.com/gabrielcon6">
-          <i class="fa fa-github fa-inverse"></i>
+          <i class="fa fa-github"></i>
         </a>
         <a target="_blank" href="mailto:gabrielcon6cao@gmail.com" >
           <i class="fa fa-envelope"></i>
         </a>
       </div>
+      <p class="bottom-message">hope you had a safe trip!</p>
       <div class="container-button top">
         <div class="button-link">
-          <a class="down" href="#home">back to top</a>
+          <a class="down" href="#home">return home</a>
         </div>
       </div>
         <!-- <hr /> -->
