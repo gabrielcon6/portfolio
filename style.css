@@ -266,6 +266,10 @@ header{display:inline-block; font-size:12px;}
   font-size: 1.1rem;
 }
 
+.top {
+  margin-top: 20vh;
+}
+
 @media screen and (max-width: 450px) {
   body {
     margin: 0;
