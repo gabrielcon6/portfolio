@@ -147,7 +147,7 @@ font-size: 1.8rem;
 
 .container-about {
 text-align: center;
-min-height: 100vh;
+min-height: 70vh;
 top: 0;
 }
 
@@ -204,8 +204,8 @@ font-size: 1.5rem;
 
 .about-buttons {
 height:30vh;
-margin-top: 15vh;
-margin-bottom: 15vh;
+/* margin-top: 15vh;
+margin-bottom: 15vh; */
 }
 
 /* <!-- **** Projects Section **** --> */
@@ -375,7 +375,11 @@ margin-top: 15vh;
 
   .title-first-name, .title-last-name {
     font-size: 2rem;
-  }
+    background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
   .title-first-name:before {
     white-space: pre;
     content:"\a";
@@ -495,7 +499,9 @@ margin-top: 15vh;
   }
   .about-buttons {
     height:30vh;
-  }
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    }
 
   .skills-title{
     color: grey;
