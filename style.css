@@ -381,7 +381,7 @@ margin-top: 15vh;
     -webkit-text-fill-color: transparent;
     }
 
-  .title-first-name:before {
+  .title-first-name:before,.line-break:before {
     white-space: pre;
     content:"\a";
   }
