@@ -257,8 +257,8 @@ text-align: center;
 }
 
 .img-project {
-height: 30vh;
-width: 27vw;  
+height: 35vh;
+width: 32vw;  
 float: right;
 -webkit-transition: -webkit-transform .3s ease-in-out;
         transition:         transform .3s ease-in-out;
@@ -432,7 +432,7 @@ margin-top: 15vh;
   }
   .down:hover {
     padding: 0.5rem;
-    color: black;
+    color: #ebe9e9;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -447,7 +447,7 @@ margin-top: 15vh;
 
   .container-about {
     text-align: center;
-    height: 100vh;
+    height: 120vh;
     top: 0;
   }
 
