@@ -147,7 +147,7 @@ font-size: 1.8rem;
 
 .container-about {
 text-align: center;
-min-height: 80vh;
+min-height: 100vh;
 top: 0;
 }
 
@@ -206,6 +206,9 @@ font-size: 1.5rem;
 height:30vh;
 }
 
+.about-link {
+  margin-top: 5vh;
+}
 /* <!-- **** Projects Section **** --> */
 .container-projects {
 text-align: center;
