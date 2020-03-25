@@ -131,20 +131,17 @@ width: 100vw;
 display: inline-block;
 color: black;
 }
-
 .title {
 width: 100vw;
 text-align: center;
 font-size: 3.5rem;
 }
-
 .title-first-name, .title-last-name {
 font-size: 4rem;
 background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-
 .location {
 text-align: end;
 line-height: 1vh;
@@ -152,14 +149,12 @@ color: black;
 padding: 0;
 margin: -2vh 10vw 0 0;
 }
-
 .container-button {
 width: 100vw;
 text-align: center;
 color: black !important;
 margin-top: 5vh;
 }
-
 .button-link {
 margin: auto;
 width: auto;
@@ -176,7 +171,6 @@ display: table-cell;
 vertical-align: middle;
 text-align: center;
 }
-
 .down {
 padding: 1.5rem;
 color: black;
@@ -184,20 +178,20 @@ display: table-cell;
 vertical-align: middle;
 text-align: center;
 }
-
 .pin {
 padding: 0 1vw;
 font-size: 1.8rem;
 }
 
-/* <!-- **** About Section **** --> */
+/**************************************************************
+              ABOUT SESSION
+**************************************************************/
 
 .container-about {
 text-align: center;
 min-height: 100vh;
 top: 0;
 }
-
 .section-title {
 padding: 3vh 0;
 color: grey;
@@ -214,13 +208,11 @@ text-align: center;
 width: 100vw;
 height: auto;
 }
-
 .about-wrapper__image {
 width: 50vw;
 float: left;
 text-align: center !important;
 }
-
 .about-wrapper__info {
 letter-spacing: 0.08rem;
 font-family: 'Open Sans', sans-serif;
@@ -256,12 +248,13 @@ height:30vh;
 .about-link {
   margin-top: 5vh;
 }
-/* <!-- **** Projects Section **** --> */
+/**************************************************************
+              PROJECTS SESSIONS
+**************************************************************/
 .container-projects {
 text-align: center;
 min-height: 100vh;
 }
-
 .project-wrapper__info {
   letter-spacing: 0.08rem;
   font-family: 'Open Sans', sans-serif;
@@ -272,7 +265,6 @@ min-height: 100vh;
   color: black;
   line-height: 1.7rem;
 }
-
 .projects-wrapper__inline {
 display: inline-block;
 width: 100vw;
@@ -292,7 +284,6 @@ width: 100vw;
 width: 50vw;
 float: right;
 }
-
 .button-code, .button-demo{
 margin: 3vh 3vw 0;
 text-align: left;
@@ -303,7 +294,6 @@ display: table;
 width: 15vw;
 text-align: center;
 }
-
 .img-project {
 height: 35vh;
 width: 32vw;  
@@ -311,18 +301,17 @@ float: right;
 -webkit-transition: -webkit-transform .3s ease-in-out;
         transition:         transform .3s ease-in-out;
 }
-
 .last-stop {
 margin-top: 15vh;
 }
-
-/* <!-- **** Footer/contact Section **** --> */
+/**************************************************************
+              CONTACT SESSION
+**************************************************************/
 .container-contact {
 margin-top: 20vh;
 text-align: center;
 height: 100vh;
 }
-
 .social-links{
 margin: 5vh 0;
 font-size: 1.7rem;
@@ -331,27 +320,27 @@ font-size: 1.7rem;
 font-size: 2rem;
 color: black;
 }
-
 .social-links{
 margin: 5vh 0;
 font-size: 1.7rem;
 color: black !important;
 }
-
 .footer-content {
 letter-spacing: 0.08rem;
 font-size: 1.1rem;
 color: black;
 }
-
 .top {
 margin-top: 20vh;
 }
-
 .bottom-message{
 color: black;
 margin-top: 15vh;
 }
+
+/**************************************************************
+             MEDIA SCREEN 480PX MAX
+**************************************************************/
 
 @media screen and (max-width: 480px) {
   body, html {
