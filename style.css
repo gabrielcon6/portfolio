@@ -7,42 +7,42 @@ body {
   letter-spacing: 0.5rem; 
 }
 a {
-text-decoration: none;
-color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 /**************************************************************
               HAMBURGER MENU
 **************************************************************/
 .hamburger{
-background:none;
-position:fixed;
-top:0;
-left:0;
-line-height:45px;
-padding:5px 15px 0px 15px;
-color:rgb(205, 205, 205);
-border:0;
-font-size:3em;
-font-weight:bold;
-cursor:pointer;
-outline:none;
-z-index:10000000000000;
-float: left;
+  background:none;
+  position:fixed;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:rgb(205, 205, 205);
+  border:0;
+  font-size:3em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  float: left;
 }
 .cross{
-background:none;
-position:fixed;
-top:0px;
-left:0;
-padding:7px 15px 0px 15px;
-color:rgb(205, 205, 205);
-border:0;
-font-size:4em;
-line-height:65px;
-font-weight:bold;
-cursor:pointer;
-outline:none;
-z-index:10000000000000;
+  background:none;
+  position:fixed;
+  top:0px;
+  left:0;
+  padding:7px 15px 0px 15px;
+  color:rgb(205, 205, 205);
+  border:0;
+  font-size:4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
 }
 .menu{
   z-index:1000000; 
@@ -99,86 +99,86 @@ header{
 **************************************************************/
 
 .container-home {
-height: 100vh;
-display: flex;
-align-items: center;
-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100vw;
 }
 
 .top-message {
-width: 100vw;
-text-align: center;
+  width: 100vw;
+  text-align: center;
 }
 
 .fa-rotate-45 {
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .airplane {
-width: 51vw;
-text-align: right;
-font-size: 3.5rem;
-color: black;
+  width: 51vw;
+  text-align: right;
+  font-size: 3.5rem;
+  color: black;
 }
 .welcome-aboard{
-width: 100vw;
-display: inline-block;
-color: black;
+  width: 100vw;
+  display: inline-block;
+  color: black;
 }
 .title {
-width: 100vw;
-text-align: center;
-font-size: 3.5rem;
+  width: 100vw;
+  text-align: center;
+  font-size: 3.5rem;
 }
 .title-first-name, .title-last-name {
-font-size: 4rem;
-background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .location {
-text-align: end;
-line-height: 1vh;
-color: black;
-padding: 0;
-margin: -2vh 10vw 0 0;
+  text-align: end;
+  line-height: 1vh;
+  color: black;
+  padding: 0;
+  margin: -2vh 10vw 0 0;
 }
 .container-button {
-width: 100vw;
-text-align: center;
-color: black !important;
-margin-top: 5vh;
+  width: 100vw;
+  text-align: center;
+  color: black !important;
+  margin-top: 5vh;
 }
 .button-link {
-margin: auto;
-width: auto;
-height: auto;
-overflow: hidden;
-border: 1px solid rgb(72, 70, 70);
-display: table;
+  margin: auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid rgb(72, 70, 70);
+  display: table;
 }
 .down:hover {
-padding: 1.5rem;
-font-size: 1.05rem;
-color: black;
-display: table-cell;
-vertical-align: middle;
-text-align: center;
+  padding: 1.5rem;
+  font-size: 1.05rem;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 .down {
-padding: 1.5rem;
-color: black;
-display: table-cell;
-vertical-align: middle;
-text-align: center;
+  padding: 1.5rem;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 .pin {
-padding: 0 1vw;
-font-size: 1.8rem;
+  padding: 0 1vw;
+  font-size: 1.8rem;
 }
 
 /**************************************************************
@@ -186,61 +186,61 @@ font-size: 1.8rem;
 **************************************************************/
 
 .container-about {
-text-align: center;
-min-height: 100vh;
-top: 0;
+  text-align: center;
+  min-height: 100vh;
+  top: 0;
 }
 .section-title {
-padding: 3vh 0;
-color: grey;
+  padding: 3vh 0;
+  color: grey;
 }
 .map-pin {
-font-size: 2rem !important;
-margin-right: 1vw;
+  font-size: 2rem !important;
+  margin-right: 1vw;
 }
 .skills-title{
-color: grey;
+  color: grey;
 }
 .row-about-wrapper{
-text-align: center;
-width: 100vw;
-height: auto;
+  text-align: center;
+  width: 100vw;
+  height: auto;
 }
 .about-wrapper__image {
-width: 50vw;
-float: left;
-text-align: center !important;
+  width: 50vw;
+  float: left;
+  text-align: center !important;
 }
 .about-wrapper__info {
-letter-spacing: 0.08rem;
-font-family: 'Open Sans', sans-serif;
-width: 50vw;
-text-align: justify;
-float: right;
-line-height: 1.7rem;
+  letter-spacing: 0.08rem;
+  font-family: 'Open Sans', sans-serif;
+  width: 50vw;
+  text-align: justify;
+  float: right;
+  line-height: 1.7rem;
 }
 .about-wrapper__info-text{
-color: black;
-padding: 0 10vw 0 0;
+  color: black;
+  padding: 0 10vw 0 0;
 }
 .img-about {
-height: 40vh;
-width:auto;  
-right: 0;
-margin-right: 0;
-margin-left: 10vw;
+  height: 40vh;
+  width:auto;  
+  right: 0;
+  margin-right: 0;
+  margin-left: 10vw;
 }
 .resume-link{
-background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .resume-link:hover{
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .about-buttons {
-height:30vh;
+  height:30vh;
 }
 
 .about-link {
@@ -250,8 +250,8 @@ height:30vh;
               PROJECTS SESSIONS
 **************************************************************/
 .container-projects {
-text-align: center;
-min-height: 100vh;
+  text-align: center;
+  min-height: 100vh;
 }
 .project-wrapper__info {
   letter-spacing: 0.08rem;
@@ -264,76 +264,76 @@ min-height: 100vh;
   line-height: 1.7rem;
 }
 .projects-wrapper__inline {
-display: inline-block;
-width: 100vw;
+  display: inline-block;
+  width: 100vw;
 }
 .project-wrapper__image{
-width: 50vw;
-float: left;
+  width: 50vw;
+  float: left;
 }
 .project-wrapper__text-title {
-color: grey;
-margin-top: 5vh;
+  color: grey;
+  margin-top: 5vh;
 }
 .projects-wrapper__inline_position{
-width: 100vw;
+  width: 100vw;
 }
 .code-buttons{
-width: 50vw;
-float: right;
+  width: 50vw;
+  float: right;
 }
 .button-code, .button-demo{
-margin: 3vh 3vw 0;
-text-align: left;
-height: 10vh;
-overflow: hidden;
-border: 1px solid rgb(72, 70, 70);
-display: table;
-width: 15vw;
-text-align: center;
+  margin: 3vh 3vw 0;
+  text-align: left;
+  height: 10vh;
+  overflow: hidden;
+  border: 1px solid rgb(72, 70, 70);
+  display: table;
+  width: 15vw;
+  text-align: center;
 }
 .img-project {
-height: 35vh;
-width: 32vw;  
-float: right;
--webkit-transition: -webkit-transform .3s ease-in-out;
-        transition:         transform .3s ease-in-out;
+  height: 35vh;
+  width: 32vw;  
+  float: right;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition:         transform .3s ease-in-out;
 }
 .last-stop {
-margin-top: 15vh;
+  margin-top: 15vh;
 }
 /**************************************************************
               CONTACT SESSION
 **************************************************************/
 .container-contact {
-margin-top: 20vh;
-text-align: center;
-height: 100vh;
+  margin-top: 20vh;
+  text-align: center;
+  height: 100vh;
 }
 .social-links{
-margin: 5vh 0;
-font-size: 1.7rem;
+  margin: 5vh 0;
+  font-size: 1.7rem;
 }
 .fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
-font-size: 2rem;
-color: black;
+  font-size: 2rem;
+  color: black;
 }
 .social-links{
-margin: 5vh 0;
-font-size: 1.7rem;
-color: black !important;
+  margin: 5vh 0;
+  font-size: 1.7rem;
+  color: black !important;
 }
 .footer-content {
-letter-spacing: 0.08rem;
-font-size: 1.1rem;
-color: black;
+  letter-spacing: 0.08rem;
+  font-size: 1.1rem;
+  color: black;
 }
 .top {
-margin-top: 20vh;
+  margin-top: 20vh;
 }
 .bottom-message{
-color: black;
-margin-top: 15vh;
+  color: black;
+  margin-top: 15vh;
 }
 
 /**************************************************************
