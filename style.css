@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -211,13 +212,18 @@ header{
   float: left;
   text-align: center !important;
 }
-.about-wrapper__info {
+.about-wrapper__info, .personal-interest {
   letter-spacing: 0.08rem;
   font-family: 'Open Sans', sans-serif;
   width: 50vw;
   text-align: justify;
   float: right;
   line-height: 1.7rem;
+}
+.personal-interest{
+  width: 50vw;
+  float: left;
+  margin-left: 10vw;
 }
 .about-wrapper__info-text{
   color: black;
@@ -237,10 +243,6 @@ header{
 }
 .resume-link:hover{
   font-size: 1.5rem;
-}
-
-.about-buttons {
-  height:30vh;
 }
 
 .about-link {
@@ -340,7 +342,7 @@ header{
              MEDIA SCREEN 480PX MAX
 **************************************************************/
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   body, html {
     margin: 0;
     padding: 0;
@@ -487,7 +489,7 @@ header{
 
   .container-about {
     text-align: center;
-    height: 130vh;
+    height: 180vh;
     top: 0;
   }
 
@@ -544,8 +546,7 @@ header{
     height:30vh;
     margin-top: 15vh;
     margin-bottom: 15vh;
-    }
-
+  }
   .skills-title{
     color: grey;
     width: 100vw;
@@ -634,7 +635,17 @@ header{
   }
 }  
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-buttons {
+    text-align: center;
+    min-height: 10vh;
+    top: 0;
+  }
+  .container-button {
+    text-align: center;
+    min-height: 10vh;
+    top: 0;
+  }
   .location {
     text-align: center;
     margin: 0 0 0 0;
@@ -717,3 +728,10 @@ header{
   }
 
 }  
+
+@media only screen and (min-width: 1600px) {
+  .about-buttons {
+    margin-top: 70vh;
+    bottom:0;
+  }
+}
