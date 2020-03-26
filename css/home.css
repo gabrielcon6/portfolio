@@ -1,0 +1,154 @@
+
+/**************************************************************
+              LANDING PAGE
+**************************************************************/
+.container-home {
+  min-height: 100vh;
+  align-items: center;
+  width: 100%;
+}
+.top-message {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+.airplane {
+  width: 55%;
+  text-align: right;
+  font-size: 2rem;
+  color: black;
+  margin-top: 35px;
+}
+.fa-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.welcome-aboard{
+  width: 100%;
+  display: inline-block;
+  color: black;
+  margin-top: 20px;
+}
+.title {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.8em;
+}
+.title-first-name, .title-last-name {
+  font-size: 2rem;
+  background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title-first-name:before,.line-break:before, .line-break {
+  white-space: pre;
+  content:"\a";
+}
+.location {
+  line-height: 1vh;
+  color: black;
+  padding: 0;
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 13px;
+  }
+.container-button {
+  display: block;
+  width: 100vw;
+  text-align: center;
+  color: black;
+  margin-top: 12vh;
+}
+.button-link {
+  margin: auto;
+  width: 65vw;
+  height: 8vh;
+  overflow: hidden;
+  border: 1px solid rgb(72, 70, 70);
+  display: table;
+}
+.down {
+  padding: 0.5rem;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: auto;
+  font-size: 13px;
+}
+.down:hover {
+  font-size: 14px;
+  color:black;
+} 
+.pin {
+  padding: 0 1vw;
+  font-size: 1.6rem;
+} 
+
+@media only screen and (min-width: 640px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .container-home {
+      display: flex;
+  }
+  .airplane {
+      width: 51vw;
+      font-size: 3.5rem;
+  }
+  .title {
+    font-size: 3.2rem;
+  }
+  .title-first-name, .title-last-name {
+    font-size: 3.8rem;
+  }
+  .title-first-name:before,.line-break:before, .line-break {
+    white-space: none;
+    content: none;
+  }
+  .location {
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  .container-button {
+    margin-top: 5vh;
+  }
+  .button-link {
+    width: auto;
+    height: auto;
+  }
+  .down {
+    padding: 1.5rem;
+  }
+  .down:hover {
+    font-size: 14px;
+    color:black;
+  }
+  .pin {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .location {
+    text-align: end;
+    margin: -40px 150px 0 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1366px) {
+  .location {
+    text-align: end;
+    margin: -40px 380px 0 0;
+  }
+}
