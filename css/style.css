@@ -1,0 +1,737 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: #cdcdcd;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5rem; 
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/**************************************************************
+              HAMBURGER MENU
+**************************************************************/
+.hamburger{
+  background:none;
+  position:fixed;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:rgb(205, 205, 205);
+  border:0;
+  font-size:3em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  float: left;
+}
+.cross{
+  background:none;
+  position:fixed;
+  top:0px;
+  left:0;
+  padding:7px 15px 0px 15px;
+  color:rgb(205, 205, 205);
+  border:0;
+  font-size:4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{
+  z-index:1000000; 
+  font-weight:bold; 
+  width:100%; 
+  background:white;  
+  position:absolute; 
+  text-align:center; 
+  font-size:1.2em; 
+  height: 100vh; 
+  display: table;
+}
+.menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none; 
+  display: table-cell; 
+  vertical-align: middle; 
+  line-height: 3rem;
+}
+.menu li {
+  display: block;   
+  padding:15px 0 15px 0;
+}
+.menu li:hover{
+  display: block; 
+  padding:15px 0 15px 0;
+}
+.menu ul li a { 
+  text-decoration:none;  
+  margin: 0px; 
+  color:#666;
+}
+.menu ul li a:hover {  
+  color:white; 
+  text-decoration:none;
+}
+.menu a{
+  text-decoration:none; 
+  color:#666;
+}
+.menu a:hover{
+  text-decoration:none; 
+  color: white
+}
+header{
+  display:inline-block; 
+  font-size:12px;
+}
+
+/**************************************************************
+              LANDING PAGE
+**************************************************************/
+
+.container-home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+.top-message {
+  width: 100vw;
+  text-align: center;
+}
+
+.fa-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.airplane {
+  width: 51vw;
+  text-align: right;
+  font-size: 3.5rem;
+  color: black;
+}
+.welcome-aboard{
+  width: 100vw;
+  display: inline-block;
+  color: black;
+}
+.title {
+  width: 100vw;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.title-first-name, .title-last-name {
+  font-size: 4rem;
+  background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.location {
+  text-align: end;
+  line-height: 1vh;
+  color: black;
+  padding: 0;
+  margin: -2vh 10vw 0 0;
+}
+.container-button {
+  width: 100vw;
+  text-align: center;
+  color: black !important;
+  margin-top: 5vh;
+}
+.button-link {
+  margin: auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid rgb(72, 70, 70);
+  display: table;
+}
+.down:hover {
+  padding: 1.5rem;
+  font-size: 1.05rem;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.down {
+  padding: 1.5rem;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.pin {
+  padding: 0 1vw;
+  font-size: 1.8rem;
+}
+
+/**************************************************************
+              ABOUT SESSION
+**************************************************************/
+
+.container-about {
+  text-align: center;
+  min-height: 100vh;
+  top: 0;
+}
+.section-title {
+  padding: 3vh 0;
+  color: grey;
+}
+.map-pin {
+  font-size: 2rem !important;
+  margin-right: 1vw;
+}
+.skills-title{
+  color: grey;
+}
+.row-about-wrapper{
+  text-align: center;
+  width: 100vw;
+  height: auto;
+}
+.about-wrapper__image {
+  width: 50vw;
+  float: left;
+  text-align: center !important;
+}
+.about-wrapper__info, .personal-interest {
+  letter-spacing: 0.08rem;
+  font-family: 'Open Sans', sans-serif;
+  width: 50vw;
+  text-align: justify;
+  float: right;
+  line-height: 1.7rem;
+}
+.personal-interest{
+  width: 50vw;
+  float: left;
+  margin-left: 10vw;
+}
+.about-wrapper__info-text{
+  color: black;
+  padding: 0 10vw 0 0;
+}
+.img-about {
+  height: 40vh;
+  width:auto;  
+  right: 0;
+  margin-right: 0;
+  margin-left: 10vw;
+}
+.resume-link{
+  background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.resume-link:hover{
+  font-size: 1.5rem;
+}
+
+.about-link {
+  margin-top: 5vh;
+}
+/**************************************************************
+              PROJECTS SESSIONS
+**************************************************************/
+.container-projects {
+  text-align: center;
+  min-height: 100vh;
+}
+.project-wrapper__info {
+  letter-spacing: 0.08rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 2vw;
+  width: 60vw;
+  margin: 0 20vw;
+  font-size: 1.1rem;
+  color: black;
+  line-height: 1.7rem;
+}
+.projects-wrapper__inline {
+  display: inline-block;
+  width: 100vw;
+}
+.project-wrapper__image{
+  width: 50vw;
+  float: left;
+}
+.project-wrapper__text-title {
+  color: grey;
+  margin-top: 5vh;
+}
+.projects-wrapper__inline_position{
+  width: 100vw;
+}
+.code-buttons{
+  width: 50vw;
+  float: right;
+}
+.button-code, .button-demo{
+  margin: 3vh 3vw 0;
+  text-align: left;
+  height: 10vh;
+  overflow: hidden;
+  border: 1px solid rgb(72, 70, 70);
+  display: table;
+  width: 15vw;
+  text-align: center;
+}
+.img-project {
+  height: 35vh;
+  width: 32vw;  
+  float: right;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition:         transform .3s ease-in-out;
+}
+.last-stop {
+  margin-top: 15vh;
+}
+/**************************************************************
+              CONTACT SESSION
+**************************************************************/
+.container-contact {
+  margin-top: 20vh;
+  text-align: center;
+  height: 100vh;
+}
+.social-links{
+  margin: 5vh 0;
+  font-size: 1.7rem;
+}
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
+  font-size: 2rem;
+  color: black;
+}
+.social-links{
+  margin: 5vh 0;
+  font-size: 1.7rem;
+  color: black !important;
+}
+.footer-content {
+  letter-spacing: 0.08rem;
+  font-size: 1.1rem;
+  color: black;
+}
+.top {
+  margin-top: 20vh;
+}
+.bottom-message{
+  color: black;
+  margin-top: 15vh;
+}
+
+/**************************************************************
+             MEDIA SCREEN 480PX MAX
+**************************************************************/
+
+@media only screen and (max-width: 480px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #cdcdcd;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5rem; 
+    width: 100vw;
+    max-width: 100vw !important;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .hamburger{
+    background:none;
+    position:fixed;
+    top:0;
+    left:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:rgb(205, 205, 205);
+    border:0;
+    font-size:2.5em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+    float: left;
+  }
+  .cross{
+    background:none;
+    position:fixed;
+    top:0px;
+    left:0;
+    padding:7px 15px 0px 15px;
+    color:rgb(205, 205, 205);
+    border:0;
+    font-size:3.5em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  .menu{z-index:1000000; font-weight:bold; width:100%; background:white;  position:absolute; text-align:center; font-size:1.2em; height: 100vh; display: table;}
+  .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none; display: table-cell; vertical-align: middle; line-height: 3rem;}
+  .menu li {display: block;   padding:15px 0 15px 0;}
+  .menu li:hover{display: block; padding:15px 0 15px 0;}
+  .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+  .menu ul li a:hover {  color:white; text-decoration:none;}
+  .menu a{text-decoration:none; color:#666;}
+  .menu a:hover{text-decoration:none; color: white}
+
+  header{display:inline-block; font-size:12px;}
+
+  .container-home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+  }
+  .container-home-child {
+    margin-top: -5vh;
+  }
+
+  .title {
+    width: 100vw;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .title-first-name, .title-last-name {
+    font-size: 2rem;
+    background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+  .title-first-name:before,.line-break:before {
+    white-space: pre;
+    content:"\a";
+  }
+
+  .airplane {
+    width: 57vw;
+    text-align: right;
+    font-size: 3.5rem;
+    color: black;
+  }
+  .welcome-aboard{
+    width: 100vw;
+    display: inline-block;
+    color: black;
+  }
+
+  .location {
+    text-align: center;
+    line-height: 1vh;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-button {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    color: black !important;
+    margin-top: 8vh;
+  }
+
+  .button-link {
+    margin: auto;
+    width: 65vw;
+    height: 8vh;
+    overflow: hidden;
+    border: 1px solid rgb(72, 70, 70);
+    display: table;
+  }
+  .down {
+    padding: 0.5rem;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+  }
+  .down:hover {
+    padding: 0.5rem;
+    color: #ebe9e9;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+  }  
+  .pin {
+    padding: 0 1vw;
+    font-size: 1.8rem;
+  }
+
+  /* <!-- **** About Section **** --> */
+
+  .container-about {
+    text-align: center;
+    height: 180vh;
+    top: 0;
+  }
+
+  .section-title {
+    padding: 3vh 0;
+    margin-top: 8vh;
+  }
+
+  .row-about-wrapper{
+    text-align: center;
+    width: 100vw;
+    height: auto;
+  }
+
+  .about-wrapper__image {
+    width: 100vw;
+    float: none;
+    text-align: center;
+  }
+
+  .about-wrapper__info {
+    letter-spacing: 0.07rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 90vw;
+    text-align: center;
+    font-size: 1.1rem;
+    float: right;
+  }
+
+  .about-wrapper__info-text{
+    color: black;
+    padding: 0 10vw 0 0;
+  }
+
+  .img-about {
+    height: auto;
+    width: 300px;  
+    right: 0;
+    left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .resume-link{
+    background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5vh;
+    margin-left: -10vw;
+  }
+  .resume-link:hover{
+    font-size: 1rem;
+  }
+  .about-buttons {
+    height:30vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+  .skills-title{
+    color: grey;
+    width: 100vw;
+    margin-left: -10vw;
+  }
+
+  /* <!-- **** Projects Section **** --> */
+  .container-projects {
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  .project-wrapper__info {
+    letter-spacing: 0.08rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 60vw;
+    margin: 0 20vw;
+    font-size: 1.1rem;
+  }
+
+  .projects-wrapper__inline {
+    display: inline-block;
+    width: 100vw;
+  }
+  .project-wrapper__image{
+    width: 100vw;
+    text-align: center;
+  }
+  .project-wrapper__text-title {
+    color: grey;
+    margin-top: 5vh;
+  }
+  .projects-wrapper__inline_position{
+    width: 100vw;
+  }
+  .code-buttons{
+    width: 100vw;
+    float: none;
+    text-align: center;
+  }
+
+  .button-code, .button-demo{
+    margin: 3vh 3vw 0;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    height: 8vh;
+    overflow: hidden;
+    border: 1px solid rgb(72, 70, 70);
+    width: 20vw;
+    text-align: center;
+    letter-spacing: 0.3rem;
+  }
+  .button-code{
+    float: left;
+    margin-left: 25vw;
+  }
+  .button-demo{
+    float: right;
+    margin-right: 25vw;
+  }
+
+  .img-project {
+    height: 28vh;
+    width: 90vw;  
+    float: none;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+            transition:         transform .3s ease-in-out;
+  }
+
+
+  /* <!-- **** Footer/contact Section **** --> */
+  .container-contact {
+    text-align: center;
+  }
+
+
+
+  .social-links{
+    margin: 5vh 0;
+    font-size: 1.7rem;
+  }
+
+  .footer-content {
+    letter-spacing: 0.08rem;
+    font-size: 1.1rem;
+  }
+}  
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-buttons {
+    text-align: center;
+    min-height: 10vh;
+    top: 0;
+  }
+  .container-button {
+    text-align: center;
+    min-height: 10vh;
+    top: 0;
+  }
+  .location {
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  .about-wrapper__image {
+    width: 100vw;
+    float: none;
+  }
+  .img-about {
+    margin-left: 0;
+  }
+  .about-wrapper__info {
+    width: 100vw;
+    text-align: center;
+    float: none;
+  }
+  .about-wrapper__info-text {
+    padding: 0 5vw;
+  }
+  .container-projects {
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  .project-wrapper__info {
+    letter-spacing: 0.08rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 60vw;
+    margin: 0 20vw;
+    font-size: 1.1rem;
+  }
+
+  .projects-wrapper__inline {
+    display: inline-block;
+    width: 100vw;
+  }
+  .project-wrapper__image{
+    width: 100vw;
+    text-align: center;
+  }
+  .project-wrapper__text-title {
+    color: grey;
+    margin-top: 5vh;
+  }
+  .projects-wrapper__inline_position{
+    width: 100vw;
+  }
+  .code-buttons{
+    width: 100vw;
+    float: none;
+    text-align: center;
+  }
+
+  .button-code, .button-demo{
+    margin: 3vh 3vw 0;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    height: 8vh;
+    overflow: hidden;
+    border: 1px solid rgb(72, 70, 70);
+    width: 20vw;
+    text-align: center;
+    letter-spacing: 0.3rem;
+  }
+  .button-code{
+    float: left;
+    margin-left: 25vw;
+  }
+  .button-demo{
+    float: right;
+    margin-right: 25vw;
+  }
+
+  .img-project {
+    height: 35vh;
+    width: 90vw;  
+    float: none;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+            transition:         transform .3s ease-in-out;
+  }
+
+}  
+
+@media only screen and (min-width: 1600px) {
+  .about-buttons {
+    margin-top: 70vh;
+    bottom:0;
+  }
+}
