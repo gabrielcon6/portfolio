@@ -12,13 +12,14 @@
     padding:5px 15px 0px 15px;
     color:rgb(205, 205, 205);
     border:0;
-    font-size:3em;
+    font-size:2em;
     font-weight:bold;
     cursor:pointer;
     outline:none;
     z-index:10000000000000;
     float: left;
     width: 100%;
+    text-align: left;
 }
 .cross{
     background:none;
@@ -86,7 +87,13 @@ header{
 }
 
 @media only screen and (min-width: 640px) {
-
+    .hamburger{
+        font-size:3em;
+    }
+    .cross{
+        font-size:6.5em;
+        margin-top: 20px;
+    }
 }
 @media only screen and (min-width: 768px) {
 
