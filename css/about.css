@@ -4,13 +4,13 @@
 
 .container-about {
     text-align: center;
-    min-height: auto;
+    min-height: 1300px;
     top: 0;
 }
 .section-title {
     padding: 10px 0;
     color: grey;
-    margin: 0 0;
+    margin: 0 0 20px 0;
 }
 .map-pin {
     font-size: 2rem !important;
@@ -127,7 +127,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
-
+    .section-title {
+        margin: 0 0;
+    }
 }
 
 @media only screen and (min-width: 1366px) {
