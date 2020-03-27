@@ -5,10 +5,10 @@
 .container-home {
   min-height: 100vh;
   align-items: center;
-  width: 100%;
+  width: 100vw;
 }
 .top-message {
-  width: 100%;
+  width: 100vw;
   text-align: center;
   font-size: 13px;
 }
@@ -59,14 +59,14 @@
   }
 .container-button {
   display: block;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   color: black;
   margin-top: 12vh;
 }
 .button-link {
   margin: auto;
-  width: 65vw;
+  width: 65%;
   height: 8vh;
   overflow: hidden;
   border: 1px solid rgb(72, 70, 70);
@@ -86,7 +86,7 @@
   color:black;
 } 
 .pin {
-  padding: 0 1vw;
+  padding: 0 1%;
   font-size: 1.6rem;
 } 
 
@@ -115,7 +115,7 @@
     display: flex;
   }
   .airplane {
-    width: 51vw;
+    width: 51%;
     font-size: 3rem;
     margin-top: 35px;
   }
