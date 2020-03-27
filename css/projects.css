@@ -1,0 +1,141 @@
+/**************************************************************
+              PROJECTS SESSIONS
+**************************************************************/
+.container-projects {
+    text-align: center;
+    min-height: 100vh;
+  }
+  .project-wrapper__info {
+    letter-spacing: 0.08rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2vw;
+    width: 60vw;
+    margin: 0 20vw;
+    font-size: 1.1rem;
+    color: black;
+    line-height: 1.7rem;
+  }
+  .projects-wrapper__inline {
+    display: inline-block;
+    width: 100vw;
+  }
+  .project-wrapper__image{
+    width: 50vw;
+    float: left;
+  }
+  .project-wrapper__text-title {
+    color: grey;
+    margin-top: 5vh;
+  }
+  .projects-wrapper__inline_position{
+    width: 100vw;
+  }
+  .code-buttons{
+    width: 50vw;
+    float: right;
+  }
+  .button-code, .button-demo{
+    margin: 3vh 3vw 0;
+    text-align: left;
+    height: 10vh;
+    overflow: hidden;
+    border: 1px solid rgb(72, 70, 70);
+    display: table;
+    width: 15vw;
+    text-align: center;
+  }
+  .img-project {
+    height: 35vh;
+    width: 32vw;  
+    float: right;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+            transition:         transform .3s ease-in-out;
+  }
+  .last-stop {
+    margin-top: 15vh;
+  }
+
+
+
+  .container-projects {
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  .project-wrapper__info {
+    letter-spacing: 0.08rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 60vw;
+    margin: 0 20vw;
+    font-size: 1.1rem;
+  }
+
+  .projects-wrapper__inline {
+    display: inline-block;
+    width: 100vw;
+  }
+  .project-wrapper__image{
+    width: 100vw;
+    text-align: center;
+  }
+  .project-wrapper__text-title {
+    color: grey;
+    margin-top: 5vh;
+  }
+  .projects-wrapper__inline_position{
+    width: 100vw;
+  }
+  .code-buttons{
+    width: 100vw;
+    float: none;
+    text-align: center;
+  }
+
+  .button-code, .button-demo{
+    margin: 3vh 3vw 0;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    height: 8vh;
+    overflow: hidden;
+    border: 1px solid rgb(72, 70, 70);
+    width: 20vw;
+    text-align: center;
+    letter-spacing: 0.3rem;
+  }
+  .button-code{
+    float: left;
+    margin-left: 25vw;
+  }
+  .button-demo{
+    float: right;
+    margin-right: 25vw;
+  }
+
+  .img-project {
+    height: 28vh;
+    width: 90vw;  
+    float: none;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+            transition:         transform .3s ease-in-out;
+  }
+
+
+@media only screen and (min-width: 640px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1366px) {
+
+}
