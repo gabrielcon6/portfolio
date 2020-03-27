@@ -36,7 +36,7 @@
     font-family: 'Montserrat', sans-serif;
     width: 90%;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     float: right;
     line-height: 30px;
 }
@@ -50,13 +50,12 @@
 }
 .img-about {
     height: auto;
-    width: 400px;  
+    width: 300px;  
     right: 0;
     left: 0;
     margin-right: 0;
     margin-left: 0;
-  }
-  
+}
 .resume-link{
     background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
     -webkit-background-clip: text;
@@ -79,9 +78,13 @@
 }
 
 @media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 960px) {
     .container-about {
         text-align: center;
-        min-height: 100vh;
+        min-height: 100%;
         top: 0;
     }
     .about-wrapper__image {
@@ -93,13 +96,16 @@
         letter-spacing: 0.08rem;
         width: 50%;
         text-align: justify;
-        line-height: 1.7rem;
+        line-height: 1.6rem;
+        float: left;
+        margin-left: -50px;
+        font-size: 0.9rem;
     }
     .img-about {
-        width:60%;  
+        width:80%;  
         right: 0;
         margin-right: 0;
-        margin-top: 10px;
+        margin-top: 80px;
     }
     .skills-title{
         color: grey;
@@ -107,16 +113,17 @@
         margin-left: 0;
     }
     .resume-link{
-        margin-bottom: 5vh;
-        margin-left: 0;
+        min-width: 100%;
+        margin-left: -50%;
+        margin-top: 0;
     }
     .resume-link:hover{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
-}
-
-@media only screen and (min-width: 960px) {
-
+    .about-buttons {
+        margin-top: 530px;
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -124,5 +131,31 @@
 }
 
 @media only screen and (min-width: 1366px) {
-
+    .section-title {
+        margin: 10px 0 30px 0;
+    }
+    .about-wrapper__info, .personal-interest {
+        width: 45%;
+        margin-left: -50px;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+    .img-about {
+        width:65%;  
+        right: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .resume-link{
+        min-width: 100%;
+        margin-left: -57%;
+        margin-top: -10%;
+    }
+    .resume-link:hover{
+        font-size: 1.2rem;
+    }
+    .about-buttons {
+        margin-top: 650px;
+        margin-bottom: 30px;
+    }
 }
