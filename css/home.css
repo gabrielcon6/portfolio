@@ -95,14 +95,32 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container-home {
-      display: flex;
-  }
   .airplane {
-      width: 51vw;
-      font-size: 3.5rem;
+    width: 53%;
+    font-size: 2.5rem;
+    margin-top: 100px;
   }
   .title {
+    margin-top: 70px;
+    font-size: 2.5rem;
+  }
+  .title-first-name, .title-last-name {
+    font-size: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+  .container-home {
+    display: flex;
+  }
+  .airplane {
+    width: 51vw;
+    font-size: 3rem;
+    margin-top: 35px;
+  }
+  .title {
+    margin-top: 35px;
     font-size: 3.2rem;
   }
   .title-first-name, .title-last-name {
@@ -133,9 +151,6 @@
   .pin {
     font-size: 1.8rem;
   }
-}
-
-@media only screen and (min-width: 960px) {
   .location {
     text-align: end;
     margin: -40px 150px 0 0;
