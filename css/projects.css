@@ -24,6 +24,12 @@
     width: 100%;
     text-align: center;
 }
+.img-project {
+    width: 90%;  
+    float: none;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+            transition:         transform .3s ease-in-out;
+}
 .project-wrapper__text-title {
     color: grey;
     margin-top: 5vh;
@@ -56,13 +62,6 @@
     float: right;
     margin-right: 25vw;
 }
-.img-project {
-    height: 28vh;
-    width: 90vw;  
-    float: none;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-            transition:         transform .3s ease-in-out;
-}
 .last-stop {
     margin-top: 15vh;
 }
@@ -84,9 +83,14 @@
         width: 50%;
         float: left;
     }
+    .img-project {
+        width: 60%;  
+        float: right;
+    }
     .code-buttons{
         width: 50vw;
         float: right;
+        margin-top: -9px;
     }
     .button-code, .button-demo{
         height: 10vh;
@@ -94,10 +98,13 @@
         width: 15vw;
         text-align: center;
     }
-    .img-project {
-        height: 35vh;
-        width: 32vw;  
+    .button-code{
+        float: left;
+        margin-left: 10%;
+    }
+    .button-demo{
         float: right;
+        margin-right: 60%;
     }
 }
 
