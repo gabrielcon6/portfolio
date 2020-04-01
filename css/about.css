@@ -132,6 +132,13 @@
     .section-title {
         margin: 0 0;
     }
+    .resume-link{
+        margin-top: -2%;
+    }
+    .about-buttons {
+        margin-top: 500px;
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -153,7 +160,7 @@
     .resume-link{
         min-width: 100%;
         margin-left: -57%;
-        margin-top: -10%;
+        margin-top: -7%;
     }
     .resume-link:hover{
         font-size: 1.2rem;
