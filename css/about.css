@@ -3,7 +3,7 @@
 **************************************************************/
 .container-about {
     text-align: center;
-    min-height: 1300px;
+    min-height: 100vh;
     top: 0;
 }
 .section-title {
