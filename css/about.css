@@ -96,7 +96,7 @@
 @media only screen and (min-width: 960px) {
     .container-about {
         text-align: center;
-        min-height: 100%;
+        min-height: 100vh;
         top: 0;
     }
     .about-wrapper__image {
