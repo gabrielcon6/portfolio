@@ -116,5 +116,8 @@
 }
 
 @media only screen and (min-width: 1366px) {
-
+    .img-project {
+        width: 70%;  
+        float: right;
+    }
 }
