@@ -91,7 +91,7 @@
         float: right;
     }
     .code-buttons{
-        width: 50vw;
+        max-width: 50%;
         float: right;
         margin-top: -9px;
     }
