@@ -10,16 +10,18 @@
 .social-links{
     margin: 5% 0;
     font-size: 1.7rem;
-    color: black;
+    color: grey;
 }
 .fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
     font-size: 1.6rem;
+    color: black;
 }
 .footer-content {
     letter-spacing: 0.08rem;
     font-size: 1.1rem;
     color: black;
     margin-top: 20%;
+    font-weight: 500;
 }
 .bottom-message {
     color: black;
@@ -35,10 +37,15 @@
 }
 
 @media only screen and (min-width: 768px) {
-
+    hr {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 960px) {
+    hr {
+        display: block;
+    }
     .container-contact {
         margin-top: 5%;
     }

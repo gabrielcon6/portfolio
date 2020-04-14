@@ -33,6 +33,9 @@
 .project-wrapper__text-title {
     color: grey;
     margin-top: 5%;
+    font-weight: initial;
+    letter-spacing: 0.07rem;
+    font-size: 1.25rem;
 }
 .projects-wrapper__inline_position{
     width: 100vw;

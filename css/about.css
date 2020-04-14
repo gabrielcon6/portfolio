@@ -8,17 +8,19 @@
 }
 .section-title {
     padding: 10px 0;
-    color: grey;
     margin: 0 0 20px 0;
+    font-weight: bold;
+    color: grey;
 }
 .map-pin {
     font-size: 2rem !important;
     margin-right: 1%;
 }
 .skills-title{
-    color: grey;
+    font-weight: initial;
     width: 100%;
     margin-left: -20px;
+    color: grey;
 }
 .row-about-wrapper{
     text-align: center;
@@ -47,6 +49,12 @@
     color: black;
     padding: 0 30px 0 0;
 }
+
+.colourful {
+    background: linear-gradient(139deg, rgba(0,145,190,1) 36%, rgba(0,156,171,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .img-about {
     height: auto;
     width: 300px;  
@@ -61,6 +69,7 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 30px;
     margin-left: -40px;
+    font-weight: bold;
 }
 .about-link {
     margin-top: 10px;
@@ -120,7 +129,6 @@
         margin-top: 80px;
     }
     .skills-title{
-        color: grey;
         width: 100%;
         margin-left: 0;
     }
