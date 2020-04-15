@@ -17,6 +17,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
+hr {
+    border: 0;
+    height: 0.8px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+}
 
 @media only screen and (min-width: 640px) {
 
