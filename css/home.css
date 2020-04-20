@@ -127,7 +127,6 @@
     font-size: 3.8rem;
   }
   .title-first-name:before,.line-break:before, .line-break {
-    white-space: none;
     content: none;
   }
   .location {
