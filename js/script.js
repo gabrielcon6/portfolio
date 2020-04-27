@@ -16,6 +16,7 @@ const happy = String.fromCodePoint(0x1F600)
 const videogame = String.fromCodePoint(0x1F3AE)
 
 $(document).ready(function(){
+  console.log(`%c Hi there! ${wave} Thanks for checking the console. I hope you have a nice reading! :D`, styles);
   $( ".cross" ).hide();
   $( ".menu" ).hide();
   $( ".hamburger" ).click(function() {
@@ -27,7 +28,7 @@ $(document).ready(function(){
   });
 
   $( ".down-about" ).click(function() {
-      console.log(`%c Hi there! ${wave} Thanks for checking the console. I hope everything is in order for ya! :D`, styles);
+      console.log(`%c Let's learn a bit more about me `, styles);
     });
 
   $( ".down-projects" ).click(function() {
@@ -36,6 +37,10 @@ $(document).ready(function(){
 
   $( ".down-contact" ).click(function() {
       console.log(`%c Thanks for checking my projects! My contact details are below ${happy}`, styles);
+    });
+
+  $( ".back-home" ).click(function() {
+      console.log(`%c Hoping to see you soon ;) `, styles);
     });
 
   $( ".cross, .menu-item" ).click(function() {
