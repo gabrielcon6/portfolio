@@ -163,7 +163,7 @@
 
 @media only screen and (min-width: 1024px) {
     .container-about {
-        min-height: 110vh;
+        min-height: auto;
     }
     .section-title {
         margin: 0 0;
@@ -172,7 +172,7 @@
         margin: 0 0 0 8%;
     }
     .about-buttons {
-        margin-top: 500px;
+        margin-top: 570px;
         margin-bottom: 30px;
     }
     .row-about-wrapper {
