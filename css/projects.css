@@ -68,7 +68,7 @@
     margin-top: 15vh;
 }
 .hr-projects {
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .image-shadow {
@@ -90,6 +90,9 @@
 }
 
 @media only screen and (min-width: 960px) {
+    .project-wrapper__text-title {
+        margin-top: 3%;
+    }
     .project-wrapper__info {
         width: 100vw;
         padding: 0;
@@ -127,6 +130,9 @@
     .button-demo{
         float: right;
         margin-right: 60%;
+    }
+    .hr-projects {
+        margin-top: 4%;
     }
 }
 
