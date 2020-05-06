@@ -2,147 +2,145 @@
               PROJECTS SESSIONS
 **************************************************************/
 .container-projects {
-    text-align: center;
-    min-height: 100vh;
+  text-align: center;
+  min-height: 100vh;
 }
 .projects-title {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .project-wrapper__info {
-    letter-spacing: 0.08rem;
-    padding: 0 10%;
-    font-size: 0.95rem;
-    line-height: 30px;
-    color: black;
+  letter-spacing: 0.08rem;
+  padding: 0 10%;
+  font-size: 0.95rem;
+  line-height: 30px;
+  color: black;
 }
 .projects-wrapper__inline {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
-.project-wrapper__image{
-    width: 100%;
-    text-align: center;
+.project-wrapper__image {
+  width: 100%;
+  text-align: center;
 }
 .img-project {
-    width: 90%;  
-    float: none;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-            transition:         transform .3s ease-in-out;
+  width: 90%;
+  float: none;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .project-wrapper__text-title {
-    color: grey;
-    margin-top: 5%;
-    font-weight: initial;
-    letter-spacing: 0.07rem;
-    font-size: 1.25rem;
+  color: grey;
+  margin-top: 5%;
+  font-weight: initial;
+  letter-spacing: 0.07rem;
+  font-size: 1.25rem;
 }
-.projects-wrapper__inline_position{
-    width: 100vw;
+.projects-wrapper__inline_position {
+  width: 100vw;
 }
-.code-buttons{
-    width: 100vw;
-    float: none;
-    text-align: center;
+.code-buttons {
+  width: 100vw;
+  float: none;
+  text-align: center;
 }
-.button-code, .button-demo{
-    margin: 3vh 3vw 0;
-    font-size: 0.9rem;
-    line-height: 1.3rem;
-    height: 8vh;
-    overflow: hidden;
-    border: 1px solid rgb(72, 70, 70);
-    width: 20vw;
-    text-align: center;
-    letter-spacing: 0.3rem;
-    display: table;
+.button-code,
+.button-demo {
+  margin: 3vh 3vw 0;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  height: 8vh;
+  overflow: hidden;
+  border: 1px solid rgb(72, 70, 70);
+  width: 20vw;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  display: table;
 }
-.button-code{
-    float: left;
-    margin-left: 25vw;
+.button-code {
+  float: left;
+  margin-left: 25vw;
 }
-.button-demo{
-    float: right;
-    margin-right: 25vw;
+.button-demo {
+  float: right;
+  margin-right: 25vw;
 }
 .last-stop {
-    margin-top: 15vh;
+  margin-top: 15vh;
 }
 .hr-projects {
-    margin-top: 6%;
+  margin-top: 6%;
 }
 
 .image-shadow {
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.39);
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.39);
 }
 
 .image-shadow:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25)
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 @media only screen and (min-width: 640px) {
-
 }
 
 @media only screen and (min-width: 768px) {
-
 }
 
 @media only screen and (min-width: 960px) {
-    .project-wrapper__text-title {
-        margin-top: 3%;
-    }
-    .project-wrapper__info {
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-    }
-    .project-wrapper__info p {
-        padding: 0 6.5%;
-
-    }
-    .project-wrapper__image{
-        width: 50%;
-        float: left;
-    }
-    .img-project {
-        width: 60%;  
-        float: right;
-    }
-    .code-buttons{
-        max-width: 50%;
-        float: right;
-        margin-top: -9px;
-    }
-    .button-code, .button-demo{
-        height: 10vh;
-        display: table;
-        width: 15vw;
-        text-align: center;
-    }
-    .button-code{
-        float: left;
-        margin-left: 10%;
-    }
-    .button-demo{
-        float: right;
-        margin-right: 60%;
-    }
-    .hr-projects {
-        margin-top: 4%;
-    }
+  .project-wrapper__text-title {
+    margin-top: 3%;
+  }
+  .project-wrapper__info {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  .project-wrapper__info p {
+    padding: 0 6.5%;
+  }
+  .project-wrapper__image {
+    width: 50%;
+    float: left;
+  }
+  .img-project {
+    width: 60%;
+    float: right;
+  }
+  .code-buttons {
+    max-width: 50%;
+    float: right;
+    margin-top: -9px;
+  }
+  .button-code,
+  .button-demo {
+    height: 10vh;
+    display: table;
+    width: 15vw;
+    text-align: center;
+  }
+  .button-code {
+    float: left;
+    margin-left: 10%;
+  }
+  .button-demo {
+    float: right;
+    margin-right: 60%;
+  }
+  .hr-projects {
+    margin-top: 4%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-
 }
 
 @media only screen and (min-width: 1366px) {
-    .img-project {
-        width: 70%;  
-        float: right;
-    }
+  .img-project {
+    width: 70%;
+    float: right;
+  }
 }
