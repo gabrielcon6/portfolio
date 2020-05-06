@@ -2,106 +2,103 @@
               HAMBURGER MENU
 **************************************************************/
 
-.hamburger{
-    font-family: 'Montserrat', sans-serif;
-    background:none;
-    position:fixed;
-    top:0;
-    left:0;
-    line-height:45px;
-    padding:5px 15px 0px 15px;
-    color:rgb(205, 205, 205);
-    border:0;
-    font-size:2em;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-    float: left;
-    width: 100%;
-    text-align: left;
+.hamburger {
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: rgb(205, 205, 205);
+  border: 0;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+  float: left;
+  width: 100%;
+  text-align: left;
 }
-.cross{
-    background:none;
-    position:fixed;
-    top:0px;
-    left:0;
-    padding:7px 15px 0px 15px;
-    color:rgb(205, 205, 205);
-    border:0;
-    font-size:4em;
-    line-height:65px;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
-}
-.menu{
-    z-index:1000000; 
-    font-weight:bold; 
-    width:100%; 
-    background:white;  
-    position:absolute; 
-    text-align:center; 
-    font-size:1.2em; 
-    height: 100vh; 
-    display: table;
+.cross {
+  background: none;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  padding: 7px 15px 0px 15px;
+  color: rgb(205, 205, 205);
+  border: 0;
+  font-size: 4em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
 }
 .menu {
-    margin: 0; 
-    padding: 0; 
-    list-style-type: none; 
-    list-style-image: none; 
-    display: table-cell; 
-    vertical-align: middle; 
-    line-height: 3rem;
-    margin-top: 5%;
+  z-index: 1000000;
+  font-weight: bold;
+  width: 100%;
+  background: white;
+  position: absolute;
+  text-align: center;
+  font-size: 1.2em;
+  height: 100vh;
+  display: table;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 3rem;
+  margin-top: 5%;
 }
 .menu p {
-    display: block;   
-    padding:15px 0 15px 0;
+  display: block;
+  padding: 15px 0 15px 0;
 }
-.menu p:hover{
-    display: block; 
-    padding:15px 0 15px 0;
+.menu p:hover {
+  display: block;
+  padding: 15px 0 15px 0;
 }
-.menu p i a { 
-    text-decoration:none;  
-    margin: 0px; 
-    color:#666;
+.menu p i a {
+  text-decoration: none;
+  margin: 0px;
+  color: #666;
 }
-.menu p a:hover {  
-    color:white; 
-    text-decoration:none;
+.menu p a:hover {
+  color: white;
+  text-decoration: none;
 }
-.menu a{
-    text-decoration:none; 
-    color:#666;
+.menu a {
+  text-decoration: none;
+  color: #666;
 }
-.menu a:hover{
-    text-decoration:none; 
-    color: black
+.menu a:hover {
+  text-decoration: none;
+  color: black;
 }
-header{
-    display:inline-block; 
-    font-size:12px;
+header {
+  display: inline-block;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 640px) {
-    .hamburger{
-        font-size:3em;
-    }
-    .cross{
-        font-size:6.5em;
-        margin-top: 20px;
-    }
+  .hamburger {
+    font-size: 3em;
+  }
+  .cross {
+    font-size: 6.5em;
+    margin-top: 20px;
+  }
 }
 @media only screen and (min-width: 768px) {
-
 }
 @media only screen and (min-width: 960px) {
-
 }
 @media only screen and (min-width: 1024px) {
-
 }
