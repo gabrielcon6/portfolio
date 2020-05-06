@@ -1,84 +1,83 @@
-
 /**************************************************************
               CONTACT PAGE
 **************************************************************/
 .container-contact {
-    margin-top: 20%;
-    text-align: center;
-    min-height: 100vh;
+  margin-top: 20%;
+  text-align: center;
+  min-height: 100vh;
 }
-.social-links{
-    margin: 5% 0;
-    font-size: 1.7rem;
-    color: grey;
+.social-links {
+  margin: 5% 0;
+  font-size: 1.7rem;
+  color: grey;
 }
-.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
-    font-size: 1.6rem;
-    color: black;
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+  font-size: 1.6rem;
+  color: black;
 }
 .footer-content {
-    letter-spacing: 0.08rem;
-    font-size: 1.1rem;
-    color: black;
-    margin-top: 20%;
-    font-weight: 500;
+  letter-spacing: 0.08rem;
+  font-size: 1.1rem;
+  color: black;
+  margin-top: 20%;
+  font-weight: 500;
 }
 .bottom-message {
-    color: black;
-    margin-top: 20%;
-    letter-spacing: 0.25rem;
+  color: black;
+  margin-top: 20%;
+  letter-spacing: 0.25rem;
 }
 .return-top {
-    margin-top: 30%;
+  margin-top: 30%;
 }
 
 @media only screen and (min-width: 640px) {
-
 }
 
 @media only screen and (min-width: 768px) {
-    hr {
-        display: none;
-    }
+  hr {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 960px) {
-    hr {
-        display: block;
-    }
-    .container-contact {
-        margin-top: 5%;
-    }
-    .footer-content {
-        margin-top: 5%;
-    }
-    .bottom-message {
-        color: black;
-        margin-top: 7.5%;
-        letter-spacing: 0.25rem;
-    }
-    .return-top {
-        margin-top: 7.5%;
-    }
+  hr {
+    display: block;
+  }
+  .container-contact {
+    margin-top: 5%;
+  }
+  .footer-content {
+    margin-top: 5%;
+  }
+  .bottom-message {
+    color: black;
+    margin-top: 7.5%;
+    letter-spacing: 0.25rem;
+  }
+  .return-top {
+    margin-top: 7.5%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-
 }
 
 @media only screen and (min-width: 1366px) {
-    .container-contact {
-        margin-top: 5%;
-    }
-    .footer-content {
-        margin-top: 5%;
-    }
-    .bottom-message {
-        color: black;
-        margin-top: 10%;
-        letter-spacing: 0.25rem;
-    }
-    .return-top {
-        margin-top: 10%;
-    }
+  .container-contact {
+    margin-top: 5%;
+  }
+  .footer-content {
+    margin-top: 5%;
+  }
+  .bottom-message {
+    color: black;
+    margin-top: 10%;
+    letter-spacing: 0.25rem;
+  }
+  .return-top {
+    margin-top: 10%;
+  }
 }
